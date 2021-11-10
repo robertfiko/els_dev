@@ -1,0 +1,3 @@
+-module(unused).
+-define(BASIC, "base").
+-define(RUxxaaaaaccccxaaaxx, "russia").
