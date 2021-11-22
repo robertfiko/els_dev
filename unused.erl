@@ -1,6 +1,12 @@
 -module(unused).
+
+-export([f/1]).
+
 -define(BASIC, "base").
--define(RUxxaaaaaccccxaaaxx, "russia").
+-define(RU, "russia").
 
 f(A) ->
     os:cmd(A).
+
+
+    
