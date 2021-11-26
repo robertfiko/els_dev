@@ -3,7 +3,10 @@
 -export([f/1]).
 
 -define(BASIC, "base").
--define(RU, "russia").
+-define(RANDOM_STUFF, "random").
 
 f(A) ->
     os:cmd(A).
+
+
+%aaaa
