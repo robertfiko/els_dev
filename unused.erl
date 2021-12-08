@@ -8,5 +8,4 @@
 f(A) ->
     os:cmd(A).
 
-
 %aaaa
