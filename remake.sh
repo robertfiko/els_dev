@@ -9,7 +9,7 @@ echo "NPM RUN COMPILE:====="
 npm run compile
 
 echo "VSCE:====="
-/Users/fikorobert/.npm-global/lib/node_modules/vsce/out/vsce package
+vsce package
 
 echo "INSTALL:====="
 code --install-extension "/Users/fikorobert/ls/vscode/erlang-ls-0.0.32.vsix" --force
