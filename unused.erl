@@ -1,11 +1,11 @@
 -module(unused).
 
--export([f/1]).
+%-export([f/1]).
 
 -define(BASIC, "base").
--define(RANDOM_STUFF, "random").
 
-f(A) ->
-    os:cmd(A).
+
+%f(A) ->
+%    os:cmd(A).
 
 %aaaaaa
