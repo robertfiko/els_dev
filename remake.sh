@@ -16,6 +16,7 @@ if npm run compile; then
     echo "DONE:====="
 else
     echo "==FAILED=="
+    return 1
 fi
 
 # open /Users/fikorobert/Library/Logs/erlang_ls/
