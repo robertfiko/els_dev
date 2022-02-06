@@ -6,14 +6,16 @@ echo "CD:====="
 cd /Users/fikorobert/Projects/ELS_Referl/vscode
 
 echo "NPM RUN COMPILE:====="
-npm run compile
+if npm run compile; then
+    echo "VSCE:====="
+    vsce package
 
-echo "VSCE:====="
-vsce package
+    echo "INSTALL:====="
+    code --install-extension "/Users/fikorobert/Projects/ELS_Referl/vscode/erlang-ls-0.0.32.vsix" --force
 
-echo "INSTALL:====="
-code --install-extension "/Users/fikorobert/Projects/ELS_Referl/vscode/erlang-ls-0.0.32.vsix" --force
-
-echo "DONE:====="
+    echo "DONE:====="
+else
+    echo "==FAILED=="
+fi
 
 # open /Users/fikorobert/Library/Logs/erlang_ls/
