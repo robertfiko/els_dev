@@ -11,13 +11,8 @@ f(A) ->
     os:cmd(A).
 
 %aaaaaa
-% 
-% 
-% 
-% 
-% 
-% 
-% 
+% aaaaaaa
+% aaavvvvv
 % 
 
 
