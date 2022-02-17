@@ -2,7 +2,11 @@
 
 -export([f/1]).
 
--define(BASITFFF, "base").
+-define(BASIC, "base").
+
+
+
+
 
 
 
@@ -10,10 +14,10 @@
 f(A) ->
     os:cmd(A).
 
-%aaaaaav
-% aaaaabbb
-% 
-% 
+
+%a
+% c
+% h
 
 
 
