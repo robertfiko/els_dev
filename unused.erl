@@ -16,5 +16,14 @@ main() ->
 f(A) ->
     os:cmd(A).
 
+    
 
 
+%% Variable Origin of Cica: 
+ %% 56
+
+halo(Hajdfdhffbijg) ->
+  ok.
+
+
+  
