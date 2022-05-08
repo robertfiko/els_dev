@@ -18,3 +18,9 @@ start_trace(Node, Module) ->
     dbg:n(Node),
     dbg:p(all, c),
     dbg:tpl(Module, x).
+
+%%T = fun(Node, Module) ->
+%%    dbg:tracer(),
+%%    dbg:n(Node),
+%%    dbg:p(all, c),
+%%    dbg:tpl(Module, x)end

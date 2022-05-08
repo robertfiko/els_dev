@@ -12,18 +12,14 @@ main() ->
   ?USED_MACRO.
 
 
+g() ->
+  f("Kortee"). 
+
 
 f(A) ->
-    os:cmd(A).
-
-    
-
-
-%% Variable Origin of Cica: 
- %% 56
-
-halo(Hajdfdhffbijg) ->
-  ok.
-
+    os:cmd(A),
+    list_to_atom(A),
+    net_adm:host_file(A).
 
   
+
